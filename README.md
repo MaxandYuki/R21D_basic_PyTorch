@@ -21,6 +21,23 @@ Train:
 
 Test:
 `./scripts/test_kinetics400_21d.sh`
+## Performance
+Training and testing environment: 8 GTX 1080 Ti GPUs
+
+Input sample size: 16 * 3 * 16 * 112 * 112 on each GPU
+
+**Results:**
+
+|  Clip@1 | Clip@5  |  Video@1 |  Video@5 |
+| ------------ | ------------ | ------------ | ------------ |
+| 60.750  | 83.076  |  67.588 | 88.190  |
+
+| Clip avg  |  Video avg |
+| ------------ | ------------ |
+|  71.913 | 77.889  |
+
 
 ------------
+
+
 Thanks to Dr. Wang's guiding and Lei Zhou's help.
